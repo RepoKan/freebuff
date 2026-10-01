@@ -1,0 +1,13 @@
+{
+  "name": "Codebuff GitHub x64",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "postCreateCommand": "npm install -g bun@1.3.14 && bun install --frozen-lockfile",
+  "remoteUser": "node",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
